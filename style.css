@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(15, 15, 15);
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 31, 31);
+    height: 350px;
+}
+
+.cabecalho{
+    padding: 60px;
+    gap: 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.logo::before {
+    content: "Code";
+    color: #e07b67;
+}
+
+
+#divBusca{
+    background-color:transparent;
+    border:solid 2px;
+    border-radius:7px;
+    padding: 20px;
+    border-color: rgb(65, 65, 65);
+    width: 90%;
+}
+
+
+.barra-busca{
+    background-color: transparent;
+    color: #e07b67;
+    border: none;
+    outline: none;
+}
+
+input::placeholder{
+    color: rgb(170, 170, 170);
+}
+
+
+.bi-search{
+    color: #e07b67;
+}
+
+#txtBusca{
+    background-color:transparent;
+    padding-left:10px;
+    font-size:18px;
+}
+
+
+.navs{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    margin: 50px;
+} 
+
+.data-salve{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bi-suit-heart-fill{
+    color: #e07b67;
+}
+
+.bi-suit-heart-fill:hover{
+    color: #d85035;
+}
+
+
+.datas-blog{
+    font-weight: 300;
+    color: #e07b67;
+}
+
+
+.nav-classe{
+    text-justify: auto;
+    font-size: 18px;
+    line-height: 2vw;
+    padding: 20px;
+    color: white;
+    border: 1px solid #e07b67;
+    border-radius: 5px;
+    font-weight: 600;
+    width: auto;
+    height: auto;
+    
+}
+
+
+.txt-menos{
+    color: rgb(119, 119, 119);
+}
